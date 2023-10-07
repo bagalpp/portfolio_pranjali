@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Facebook Login Page</title>
+	<style type="text/css">
+		h1
+		{
+			color: blue;
+			font-size: 50px;
+			margin-left: 40px;
+		}
+		h2
+		{
+			margin-left: 40px;
+		}
+
+		.mdiv
+		{
+			height: 100vh;
+			width: 100%;
+			background-color: lightgrey;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+		}
+		.loginform
+		{
+			margin-left: 50px;
+			width: 400px;
+			height: 300px;
+			margin: 15% 35%;
+			box-shadow: 0px 0px 5px darkgrey;
+			border-radius: 5px;
+			background-color: white;
+			box-align: center;
+
+		}
+		input
+		{
+			width: 95%;
+			margin-top: 10px;
+			height: 40px;
+			background-color: transparent;
+			border-radius: 2px;
+			font-weight: 20px;
+
+		}
+		
+		.head
+		{
+			color: white;
+			letter-spacing: 4px;
+			font-size: 30px;
+			font-family: Elephant;
+			font-weight: bolder;
+		}
+		.login
+		{
+			background-color: blue;
+			height: 40px;
+			border-radius: 10px;
+			color: white;
+			margin-bottom: 5px;
+		}
+		.create
+		{
+
+			background-color: green;
+			height: 40px;
+			width: 50%;
+			border-radius: 10px;
+			color: white;
+
+		}
+		a{
+			text-decoration: none;
+			color: blue;
+			margin-top: 2px;
+		}
+	</style>
+</head>
+<body>
+	<div class="mdiv">
+		<table>
+			<td width="40%">
+				<h1>facebook</h1>
+				<h2>Connect with Friends and the world around you on Facebook.</h2>
+			</td>
+			<td>
+				<div class="loginform" align="center">
+					<form>
+						<input type="text" name="un" placeholder="Email or phone number" class="ip1" id="un">
+						<input type="Password" name="pwd" placeholder="Password" style="margin-bottom: 10px;" class="ip1" id="pw">
+						<input type="button" name="login" value="Login" class="login">
+						<span><a href="#">Forgot Password?</span><br><hr>
+						<input type="button" name="Create" value="Create new account" class="create">
+					</form>
+				</div>
+			</td>
+	</div>
+</body>
+</html>
